@@ -61,16 +61,16 @@ spring:
     # mariaDB Setting
     driver-class-name: org.mariadb.jdbc.Driver
     #    url: jdbc:mariadb://shabit.site:3306/ssafy601
-    url: jdbc:mariadb://shabit.site:3307/ssafy601
-    username: ssafy601
-    password: ssafy601
+    url: jdbc:mariadb://16.16.242.216:3306/shabit
+    username: shabit_user
+    password: Rhcnwkd3019$!@
 
   # Mail Sending
   mail:
     host: smtp.gmail.com
     port: 587
-    username: ssafyezpz
-    password: lclsylxuudaclbwc
+    username: sporex422
+    password: dj110509!!
     properties:
       mail:
         smtp:
@@ -114,7 +114,7 @@ logging:
       Hibernate: info
 
 mail:
-  setFrom: ssafyezpz@gmail.com
+  setFrom: sporex422@gmail.com
 
 jwt:
   secret: UDVaY0VRREoyaEl2d2JlWXFFN2haOWF3ekRxbFBzTnpscEFFaE5mdDBSZw==

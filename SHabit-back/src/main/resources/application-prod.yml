@@ -60,17 +60,17 @@ spring:
     #    password: h2test
     # mariaDB Setting
     driver-class-name: org.mariadb.jdbc.Driver
-    url: jdbc:mariadb://shabit.site:3306/ssafy601
+    url: jdbc:mariadb://16.16.242.216:3306/shabit
     #    url: jdbc:mariadb://i8a601.p.ssafy.io:3307/ssafy601
-    username: ssafy601
-    password: ssafy601
+    username: shabit_user
+    password: Rhcnwkd3019$!@
 
   # Mail Sending
   mail:
     host: smtp.gmail.com
     port: 587
-    username: ssafyezpz
-    password: lclsylxuudaclbwc
+    username: sporex422
+    password: dj110509!!
     properties:
       mail:
         smtp:
@@ -98,9 +98,9 @@ spring:
 cloud:
   aws:
     s3:
-      bucket: ssafy601
+      bucket: shabit-bucket
     region:
-      static: ap-northeast-2 #Asia Pacific -> seoul
+      static: eu-north-1 #Asia Pacific -> seoul
     stack:
       auto: false
     credentials:
