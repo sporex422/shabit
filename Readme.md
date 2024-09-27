@@ -1,5 +1,5 @@
-# <img src="image/pngwing.com.png" width="50px"> SHabit - dev#01 올바른 자세 습관을 만들도록 도와주는 사이트
-
+# <img src="image/pngwing.com.png" width="50px"> SHabit - 올바른 자세 습관을 만들도록 도와주는 사이트
+## dev#01
 <img src="image/logo2.png" width="100%"/>
 
 ## SHabit 링크(웹사이트) : [SHabit](https://shabit.site/)
