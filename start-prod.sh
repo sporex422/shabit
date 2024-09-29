@@ -1,5 +1,5 @@
-docker-compose -f docker-compose-prod.yml pull
+sudo docker-compose -f docker-compose-prod.yml pull
 
 COMPOSE_DOCKER_CLI_BUILD=1 DOCKER_BUILDKIT=1 docker-compose -f docker-compose-prod.yml up --build -d
 
-docker rmi -f $(docker images -f "dangling=true" -q) || true
+sudo docker rmi -f $(docker images -f "dangling=true" -q) || true
